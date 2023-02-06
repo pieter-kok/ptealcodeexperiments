@@ -2,8 +2,7 @@ permissionset 50200 "Coding Experim. PTE"
 {
     Assignable = true;
     Caption = 'Coding Experiments';
-    Permissions =
-        table "Report Substitution PTE" = X,
+    Permissions = table "Report Substitution PTE" = X,
         tabledata "Report Substitution PTE" = RMID,
         table "Image Library PTE" = X,
         tabledata "Image Library PTE" = RMID,
@@ -18,5 +17,11 @@ permissionset 50200 "Coding Experim. PTE"
         page "Image Library Card PTE" = X,
         page "Image Library List PTE" = X,
         page "Hierarchy Descr. Tree PTE" = X,
-        report "Image Library PTE" = X;
+        report "Image Library PTE" = X,
+        tabledata "Source Table PTE" = RIMD,
+        tabledata "Target Table PTE" = RIMD,
+        table "Source Table PTE" = X,
+        table "Target Table PTE" = X,
+        page "Source Table List PTE" = X,
+        page "Target Table List PTE" = X;
 }
