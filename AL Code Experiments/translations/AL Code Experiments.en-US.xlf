@@ -1,0 +1,987 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="AL Code Experiments">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1252081885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hierarchy Description</source>
+          <target state="translated">Hierarchy Description</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Hierarchy Descr. PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1252081885 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target state="translated">Code</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Hierarchy Descr. PTE - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1252081885 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Description</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Hierarchy Descr. PTE - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1252081885 - Field 1789400218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Level</source>
+          <target state="translated">Level</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Hierarchy Descr. PTE - Field Level - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1252081885 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <target state="translated">Line No.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Hierarchy Descr. PTE - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1252081885 - Field 3334115041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Style</source>
+          <target state="translated">Style</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Hierarchy Descr. PTE - Field Style - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 1690626450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Crop X</source>
+          <target state="translated">Crop X</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Crop X - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 1052929833 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Crop Y</source>
+          <target state="translated">Crop Y</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Crop Y - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Description</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target state="translated">Entry No.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 3581037481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Height</source>
+          <target state="translated">Height</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Height - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 3868595262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Base64</source>
+          <target state="translated">Source Base64</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Source Base64 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 3138938202 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Format</source>
+          <target state="translated">Source Format</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Source Format - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 4292099525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Format Text</source>
+          <target state="translated">Source Format Text</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Source Format Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 4233631958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Height</source>
+          <target state="translated">Source Height</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Source Height - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 3982660982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Image</source>
+          <target state="translated">Source Image</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Source Image - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 3147621061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Width</source>
+          <target state="translated">Source Width</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Source Width - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 1946899426 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Base64</source>
+          <target state="translated">Target Base64</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Target Base64 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 2490515622 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Format</source>
+          <target state="translated">Target Format</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Target Format - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 1578807481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Format Text</source>
+          <target state="translated">Target Format Text</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Target Format Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 214254474 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Height</source>
+          <target state="translated">Target Height</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Target Height - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 948810938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Image</source>
+          <target state="translated">Target Image</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Target Image - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 189049161 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Width</source>
+          <target state="translated">Target Width</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Target Width - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3600239747 - Field 613790498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Width</source>
+          <target state="translated">Width</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Image Library PTE - Field Width - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 638653700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Substitution</source>
+          <target state="translated">Report Substitution</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Report Substitution PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 638653700 - Field 269003312 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Report Caption</source>
+          <target state="translated">New Report Caption</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Report Substitution PTE - Field New Report Caption - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 638653700 - Field 2853618745 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Report ID</source>
+          <target state="translated">New Report ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Report Substitution PTE - Field New Report ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 638653700 - Field 2512588867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Report Caption</source>
+          <target state="translated">Original Report Caption</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Report Substitution PTE - Field Original Report Caption - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 638653700 - Field 4087756550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Report ID</source>
+          <target state="translated">Original Report ID</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Report Substitution PTE - Field Original Report ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 219506241 - NamedType 356312786" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Files (*.*)|*.*</source>
+          <target state="translated">All Files (*.*)|*.*</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Library Helper PTE - NamedType AllFilesLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 219506241 - NamedType 2865259996" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete the image?</source>
+          <target state="translated">Are you sure you want to delete the image?</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Library Helper PTE - NamedType DeleteImageQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 219506241 - NamedType 143641881" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import</source>
+          <target state="translated">Import</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Library Helper PTE - NamedType ImportLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 219506241 - NamedType 3204570719" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No image found.</source>
+          <target state="translated">No image found.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Library Helper PTE - NamedType NoImageFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 219506241 - NamedType 1398852855" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The existing image will be replaced. Do you want to continue?</source>
+          <target state="translated">The existing image will be replaced. Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Library Helper PTE - NamedType OverrideImageQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 219506241 - NamedType 16173077" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <target state="translated">Target</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Library Helper PTE - NamedType TargetLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1252081885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hierarchy Descriptions</source>
+          <target state="translated">Hierarchy Descriptions</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Hierarchy Descr. PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1252081885 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a code.</source>
+          <target state="translated">Specifies a code.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Hierarchy Descr. PTE - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1252081885 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description.</source>
+          <target state="translated">Specifies a description.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Hierarchy Descr. PTE - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1252081885 - Control 1789400218 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the level for the hierarchy.</source>
+          <target state="translated">Specifies the level for the hierarchy.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Hierarchy Descr. PTE - Control Level - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1252081885 - Control 3334115041 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the style.</source>
+          <target state="translated">Specifies the style.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Hierarchy Descr. PTE - Control Style - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1831423991 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hierarchy Description Tree</source>
+          <target state="translated">Hierarchy Description Tree</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Hierarchy Descr. Tree PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1831423991 - Control 284195533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters</source>
+          <target state="translated">Filters</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Hierarchy Descr. Tree PTE - Control Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1831423991 - Control 1763205539 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a filter on description.</source>
+          <target state="translated">Specifies a filter on description.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Hierarchy Descr. Tree PTE - Control DescriptionFilterControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1831423991 - Control 1763205539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description Filter</source>
+          <target state="translated">Description Filter</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Hierarchy Descr. Tree PTE - Control DescriptionFilterControl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1831423991 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a code.</source>
+          <target state="translated">Specifies a code.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Hierarchy Descr. Tree PTE - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1831423991 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description.</source>
+          <target state="translated">Specifies a description.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Hierarchy Descr. Tree PTE - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1831423991 - Control 1789400218 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the level for the hierarchy.</source>
+          <target state="translated">Specifies the level for the hierarchy.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Hierarchy Descr. Tree PTE - Control Level - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1831423991 - Control 3334115041 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the style.</source>
+          <target state="translated">Specifies the style.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Hierarchy Descr. Tree PTE - Control Style - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image Library Card</source>
+          <target state="translated">Image Library Card</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 3581507009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Function Parameters</source>
+          <target state="translated">Function Parameters</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control FunctionParametersTab - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 1690626450 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the X coordinate of the rectangle.</source>
+          <target state="translated">Specifies the X coordinate of the rectangle.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Crop X - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 1052929833 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Y coordinate of the rectangle.</source>
+          <target state="translated">Specifies the Y coordinate of the rectangle.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Crop Y - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 3581037481 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the height of the rectangle.</source>
+          <target state="translated">Specifies the height of the rectangle.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Height - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 613790498 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the width of the rectangle.</source>
+          <target state="translated">Specifies the width of the rectangle.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Width - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 2423936635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated">General</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control GeneralTab - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description for the image.</source>
+          <target state="translated">Specifies a description for the image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies an entry number.</source>
+          <target state="translated">Specifies an entry number.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 1744492734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source</source>
+          <target state="translated">Source</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control SourceTab - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 3868595262 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the Base64 version of the source image is available.</source>
+          <target state="translated">Specifies whether the Base64 version of the source image is available.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Source Base64 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 3868595262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Base64 Available</source>
+          <target state="translated">Source Base64 Available</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Source Base64 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 3138938202 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the format of the source image.</source>
+          <target state="translated">Specifies the format of the source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Source Format - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 4292099525 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the text representation of the format of the source image.</source>
+          <target state="translated">Specifies the text representation of the format of the source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Source Format Text - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 4233631958 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the height of the source image.</source>
+          <target state="translated">Specifies the height of the source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Source Height - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 3147621061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the width of the source image.</source>
+          <target state="translated">Specifies the width of the source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Source Width - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 48869538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <target state="translated">Target</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control TargetTab - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 1946899426 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the Base64 version of the target image is available.</source>
+          <target state="translated">Specifies whether the Base64 version of the target image is available.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Target Base64 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 1946899426 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Base64 Available</source>
+          <target state="translated">Target Base64 Available</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Target Base64 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 2490515622 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the format of the target image.</source>
+          <target state="translated">Specifies the format of the target image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Target Format - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 1578807481 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the text representation of the format of the target image.</source>
+          <target state="translated">Specifies the text representation of the format of the target image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Target Format Text - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 214254474 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the height of the target image.</source>
+          <target state="translated">Specifies the height of the target image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Target Height - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Control 189049161 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the width of the target image.</source>
+          <target state="translated">Specifies the width of the target image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Control Target Width - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 1628711560 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Functions</source>
+          <target state="translated">Functions</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action FunctionsActions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 278120139 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Crops the image according to the function parameters.</source>
+          <target state="translated">Crops the image according to the function parameters.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action CropImage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 278120139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Crop Image</source>
+          <target state="translated">Crop Image</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action CropImage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 4293517319 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resizes the image according to the function parameters.</source>
+          <target state="translated">Resizes the image according to the function parameters.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action ResizeImage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 4293517319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resize Image</source>
+          <target state="translated">Resize Image</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action ResizeImage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 1002420131 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print the image library.</source>
+          <target state="translated">Print the image library.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action Print - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 1002420131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <target state="translated">Print</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action Print - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 302820460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source</source>
+          <target state="translated">Source</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action SourceActions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 2331396733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deletes the current source image.</source>
+          <target state="translated">Deletes the current source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action DeleteSourceImage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 2331396733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Source Image</source>
+          <target state="translated">Delete Source Image</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action DeleteSourceImage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 2210219019 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exports the base64 version of the source image .</source>
+          <target state="translated">Exports the base64 version of the source image .</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action ExportSourceImageBase64 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 2210219019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Source Base64</source>
+          <target state="translated">Export Source Base64</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action ExportSourceImageBase64 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 3142174166 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exports the current source image.</source>
+          <target state="translated">Exports the current source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action ExportSourceImageMedia - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 3142174166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Source Image</source>
+          <target state="translated">Export Source Image</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action ExportSourceImageMedia - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 1106155553 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Uploads an image as source image.</source>
+          <target state="translated">Uploads an image as source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action ImportSourceImage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 1106155553 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Source Image</source>
+          <target state="translated">Import Source Image</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action ImportSourceImage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 1933659136 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <target state="translated">Target</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action TargetActions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 475975953 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deletes the current target image.</source>
+          <target state="translated">Deletes the current target image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action DeleteTargetImage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 475975953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Target Image</source>
+          <target state="translated">Delete Target Image</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action DeleteTargetImage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 1284907278 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exports the base64 version of the current target image .</source>
+          <target state="translated">Exports the base64 version of the current target image .</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action ExportTargetBase64 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 1284907278 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Target Base64</source>
+          <target state="translated">Export Target Base64</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action ExportTargetBase64 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 2507505382 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exports the current target image.</source>
+          <target state="translated">Exports the current target image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action ExportTargetImage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 2507505382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Target Image</source>
+          <target state="translated">Export Target Image</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action ExportTargetImage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 1587086413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source</source>
+          <target state="translated">Source</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 3.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action Category_Category4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 2224783030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Functions</source>
+          <target state="translated">Functions</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 4.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action Category_Category5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 311693179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <target state="translated">Target</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 5.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action Category_Category6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3084538287 - Action 2234406979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report</source>
+          <target state="translated">Report</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 2.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library Card PTE - Action Category_Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3801728648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Images</source>
+          <target state="translated">Images</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library FactBox PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3801728648 - Control 2397723431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source</source>
+          <target state="translated">Source</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library FactBox PTE - Control Source - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3801728648 - Control 3982660982 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the source image.</source>
+          <target state="translated">Specifies the source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library FactBox PTE - Control Source Image - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3801728648 - Control 1125457875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <target state="translated">Target</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library FactBox PTE - Control Target - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3801728648 - Control 948810938 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the target image.</source>
+          <target state="translated">Specifies the target image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library FactBox PTE - Control Target Image - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image Library</source>
+          <target state="translated">Image Library</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image Library List</source>
+          <target state="translated">Image Library List</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description for the image.</source>
+          <target state="translated">Specifies a description for the image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies an entry number.</source>
+          <target state="translated">Specifies an entry number.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Control 3868595262 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the Base64 version of the source image is available.</source>
+          <target state="translated">Specifies whether the Base64 version of the source image is available.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Control Source Base64 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Control 3868595262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Base64 Available</source>
+          <target state="translated">Source Base64 Available</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Control Source Base64 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Control 3138938202 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the format of the source image.</source>
+          <target state="translated">Specifies the format of the source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Control Source Format - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Control 4292099525 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the text representation of the format of the source image.</source>
+          <target state="translated">Specifies the text representation of the format of the source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Control Source Format Text - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Control 4233631958 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the height of the source image.</source>
+          <target state="translated">Specifies the height of the source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Control Source Height - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Control 3147621061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the width of the source image.</source>
+          <target state="translated">Specifies the width of the source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Control Source Width - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Control 1946899426 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the Base64 version of the target image is available.</source>
+          <target state="translated">Specifies whether the Base64 version of the target image is available.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Control Target Base64 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Control 1946899426 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Base64 Available</source>
+          <target state="translated">Target Base64 Available</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Control Target Base64 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Control 2490515622 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the format of the target image.</source>
+          <target state="translated">Specifies the format of the target image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Control Target Format - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Control 1578807481 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the text representation of the format of the target image.</source>
+          <target state="translated">Specifies the text representation of the format of the target image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Control Target Format Text - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Control 214254474 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the height of the target image.</source>
+          <target state="translated">Specifies the height of the target image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Control Target Height - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Control 189049161 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the width of the target image.</source>
+          <target state="translated">Specifies the width of the target image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Control Target Width - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 1002420131 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print the image library.</source>
+          <target state="translated">Print the image library.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action Print - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 1002420131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <target state="translated">Print</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action Print - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 302820460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source</source>
+          <target state="translated">Source</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action SourceActions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 2331396733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deletes the current source image.</source>
+          <target state="translated">Deletes the current source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action DeleteSourceImage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 2331396733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Source Image</source>
+          <target state="translated">Delete Source Image</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action DeleteSourceImage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 2210219019 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exports the base64 version of the source image .</source>
+          <target state="translated">Exports the base64 version of the source image .</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action ExportSourceImageBase64 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 2210219019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Source Base64</source>
+          <target state="translated">Export Source Base64</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action ExportSourceImageBase64 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 3142174166 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exports the current source image.</source>
+          <target state="translated">Exports the current source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action ExportSourceImageMedia - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 3142174166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Source Image</source>
+          <target state="translated">Export Source Image</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action ExportSourceImageMedia - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 1106155553 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Uploads an image as source image.</source>
+          <target state="translated">Uploads an image as source image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action ImportSourceImage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 1106155553 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Source Image</source>
+          <target state="translated">Import Source Image</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action ImportSourceImage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 1933659136 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <target state="translated">Target</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action TargetActions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 475975953 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deletes the current target image.</source>
+          <target state="translated">Deletes the current target image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action DeleteTargetImage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 475975953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Target Image</source>
+          <target state="translated">Delete Target Image</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action DeleteTargetImage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 1284907278 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exports the base64 version of the current target image .</source>
+          <target state="translated">Exports the base64 version of the current target image .</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action ExportTargetBase64 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 1284907278 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Target Base64</source>
+          <target state="translated">Export Target Base64</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action ExportTargetBase64 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 2507505382 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exports the current target image.</source>
+          <target state="translated">Exports the current target image.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action ExportTargetImage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 2507505382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Target Image</source>
+          <target state="translated">Export Target Image</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action ExportTargetImage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 1587086413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source</source>
+          <target state="translated">Source</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 3.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action Category_Category4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 2224783030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Functions</source>
+          <target state="translated">Functions</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 4.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action Category_Category5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 311693179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <target state="translated">Target</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 5.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action Category_Category6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025142581 - Action 2234406979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report</source>
+          <target state="translated">Report</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 2.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action Category_Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2925885693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Substitutions</source>
+          <target state="translated">Report Substitutions</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Report Substitutions PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2925885693 - Control 269003312 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the caption of the new report.</source>
+          <target state="translated">Specifies the caption of the new report.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Report Substitutions PTE - Control New Report Caption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2925885693 - Control 2853618745 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value the new report id.</source>
+          <target state="translated">Specifies the value the new report id.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Report Substitutions PTE - Control New Report ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2925885693 - Control 2512588867 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the caption of the original report.</source>
+          <target state="translated">Specifies the caption of the original report.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Report Substitutions PTE - Control Original Report Caption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2925885693 - Control 4087756550 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the original report id.</source>
+          <target state="translated">Specifies the original report id.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Report Substitutions PTE - Control Original Report ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2925885693 - Action 2258795675 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Initializes the job quote report in report selections.</source>
+          <target state="translated">Initializes the job quote report in report selections.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Report Substitutions PTE - Action InitJobQuoteReport - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2925885693 - Action 2258795675 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Init Job Quote Report</source>
+          <target state="translated">Init Job Quote Report</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Report Substitutions PTE - Action InitJobQuoteReport - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3600239747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image Library</source>
+          <target state="translated">Image Library</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Image Library PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4193986007 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3332899200">
+          <source>Sales Line List</source>
+          <target state="translated">Sales Line List</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Order List PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2876614171 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hierarchy Style</source>
+          <target state="translated">Hierarchy Style</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Hierarchy Style PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2876614171 - EnumValue 2792882736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ambiguous</source>
+          <target state="translated">Ambiguous</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Hierarchy Style PTE - EnumValue Ambiguous - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2876614171 - EnumValue 1351826026 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attention</source>
+          <target state="translated">Attention</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Hierarchy Style PTE - EnumValue Attention - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2876614171 - EnumValue 821543844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AttentionAccent</source>
+          <target state="translated">AttentionAccent</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Hierarchy Style PTE - EnumValue AttentionAccent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2876614171 - EnumValue 1842024162 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Favorable</source>
+          <target state="translated">Favorable</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Hierarchy Style PTE - EnumValue Favorable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2876614171 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">None</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Hierarchy Style PTE - EnumValue None - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2876614171 - EnumValue 2672704373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard</source>
+          <target state="translated">Standard</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Hierarchy Style PTE - EnumValue Standard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2876614171 - EnumValue 1674860615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>StandardAccent</source>
+          <target state="translated">StandardAccent</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Hierarchy Style PTE - EnumValue StandardAccent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2876614171 - EnumValue 891678869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Strong</source>
+          <target state="translated">Strong</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Hierarchy Style PTE - EnumValue Strong - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2876614171 - EnumValue 1391056551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>StrongAccent</source>
+          <target state="translated">StrongAccent</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Hierarchy Style PTE - EnumValue StrongAccent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2876614171 - EnumValue 2463722134 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subordinate</source>
+          <target state="translated">Subordinate</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Hierarchy Style PTE - EnumValue Subordinate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2876614171 - EnumValue 2997326431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unfavorable</source>
+          <target state="translated">Unfavorable</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Hierarchy Style PTE - EnumValue Unfavorable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2716677331 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Coding Experiments</source>
+          <target state="translated">Coding Experiments</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet Coding Experim. PTE - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
