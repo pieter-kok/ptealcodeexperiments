@@ -29,5 +29,6 @@ permissionset 50200 "Coding Experim. PTE"
         page "Source Table List PTE" = X,
         page "Target Table List PTE" = X,
         page "Contract Card PTE" = X,
-        page "Contract List PTE" = X;
+        page "Contract List PTE" = X,
+        page "Mobile Scan PTE" = X;
 }
