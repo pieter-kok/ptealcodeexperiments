@@ -1,18 +1,28 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Microsoft cloud sandbox",
-            "request": "launch",
-            "type": "al",
-            "environmentType": "Sandbox",
-            "environmentName": "Sandbox",
-            "tenant": "pieterkok.onmicrosoft.com",
-            "breakOnError": true,
-            "launchBrowser": true,
-            "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true,
-            "schemaUpdateMode": "ForceSync"
-        },
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Microsoft cloud sandbox",
+      "request": "launch",
+      "type": "al",
+      "environmentType": "Sandbox",
+      "environmentName": "Sandbox",
+      "tenant": "pieterkok.onmicrosoft.com",
+      "breakOnError": true,
+      "launchBrowser": true,
+      "enableLongRunningSqlStatements": true,
+      "enableSqlInformationDebugger": true,
+      "schemaUpdateMode": "ForceSync"
+    },
+    {
+      "type": "al",
+      "request": "launch",
+      "name": "Local Sandbox (pteexp)",
+      "server": "http://pteexp",
+      "serverInstance": "BC",
+      "port": 7049,
+      "tenant": "default",
+      "authentication": "UserPassword"
+    }
+  ]
 }

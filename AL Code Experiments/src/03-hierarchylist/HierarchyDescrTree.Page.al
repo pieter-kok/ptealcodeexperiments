@@ -79,7 +79,6 @@ page 50205 "Hierarchy Descr. Tree PTE"
     }
 
     var
-        [InDataSet]
         CurrStyleExpr: Text;
         DescriptionFilter: Text;
 
