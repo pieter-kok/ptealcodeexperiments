@@ -3,6 +3,30 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="AL Code Experiments">
     <body>
       <group id="body">
+        <trans-unit id="Table 2466488221 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contract</source>
+          <target state="translated">Contract</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contract PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2466488221 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <target state="translated">Customer Name</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contract PTE - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2466488221 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target state="translated">Customer No.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contract PTE - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2466488221 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target state="translated">No.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Contract PTE - Field No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1252081885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Hierarchy Description</source>
           <target state="translated">Hierarchy Description</target>
@@ -177,6 +201,42 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Report Substitution PTE - Field Original Report ID - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3167467782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Table</source>
+          <target state="translated">Source Table</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Source Table PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3167467782 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target state="translated">Code</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Source Table PTE - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3167467782 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Description</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Source Table PTE - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1962055514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Table</source>
+          <target state="translated">Target Table</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Target Table PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1962055514 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Description</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Target Table PTE - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1962055514 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target state="translated">Entry No.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Target Table PTE - Field Entry No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Codeunit 219506241 - NamedType 356312786" size-unit="char" translate="yes" xml:space="preserve">
           <source>All Files (*.*)|*.*</source>
           <target state="translated">All Files (*.*)|*.*</target>
@@ -212,6 +272,84 @@
           <target state="translated">Target</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Library Helper PTE - NamedType TargetLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2612832961 - Method 552824665 - NamedType 469229928" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The item description cannot be constructed. %1 is missing in %2.</source>
+          <target state="translated">The item description cannot be constructed. %1 is missing in %2.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Field caption, %2=Table caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Sales Line Subscr. PTE - Method ReplaceItemDescription - NamedType ItemDescriptionCannotBeConstructedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2612832961 - Method 552824665 - NamedType 2217831699" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open setup</source>
+          <target state="translated">Open setup</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Sales Line Subscr. PTE - Method ReplaceItemDescription - NamedType OpenSetupLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2612832961 - Method 552824665 - NamedType 1164692224" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the setup to fill the missing field.</source>
+          <target state="translated">Opens the setup to fill the missing field.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Sales Line Subscr. PTE - Method ReplaceItemDescription - NamedType OpenSetupTooltipLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1747109625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contract Card</source>
+          <target state="translated">Contract Card</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Contract Card PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1747109625 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated">General</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Contract Card PTE - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1747109625 - Control 1171137197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer Name field.</source>
+          <target state="translated">Specifies the value of the Customer Name field.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Contract Card PTE - Control Customer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1747109625 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer No. field.</source>
+          <target state="translated">Specifies the value of the Customer No. field.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Contract Card PTE - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1747109625 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field.</source>
+          <target state="translated">Specifies the value of the No. field.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Contract Card PTE - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1690377019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contracts</source>
+          <target state="translated">Contracts</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Contract List PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1690377019 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contract List</source>
+          <target state="translated">Contract List</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Contract List PTE - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 1690377019 - Control 1171137197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer Name field.</source>
+          <target state="translated">Specifies the value of the Customer Name field.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Contract List PTE - Control Customer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1690377019 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer No. field.</source>
+          <target state="translated">Specifies the value of the Customer No. field.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Contract List PTE - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1690377019 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field.</source>
+          <target state="translated">Specifies the value of the No. field.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Contract List PTE - Control No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1252081885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Hierarchy Descriptions</source>
@@ -849,6 +987,30 @@
           <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 2.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Image Library List PTE - Action Category_Report - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3563366346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mobile Scan</source>
+          <target state="translated">Mobile Scan</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Mobile Scan PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3563366346 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated">General</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Mobile Scan PTE - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3563366346 - Control 1520089412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scan or enter a bar code.</source>
+          <target state="translated">Scan or enter a bar code.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Mobile Scan PTE - Control BarCodeValueControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3563366346 - Control 1520089412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bar Code</source>
+          <target state="translated">Bar Code</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Mobile Scan PTE - Control BarCodeValueControl - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2925885693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Report Substitutions</source>
           <target state="translated">Report Substitutions</target>
@@ -891,17 +1053,102 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Report Substitutions PTE - Action InitJobQuoteReport - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2264709372 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Table List</source>
+          <target state="translated">Source Table List</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Source Table List PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2264709372 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Code field.</source>
+          <target state="translated">Specifies the value of the Code field.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Source Table List PTE - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2264709372 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <target state="translated">Specifies the value of the Description field.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Source Table List PTE - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2264709372 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemId field.</source>
+          <target state="translated">Specifies the value of the SystemId field.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Source Table List PTE - Control SystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1418236720 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Table List</source>
+          <target state="translated">Target Table List</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Target Table List PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1418236720 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <target state="translated">Specifies the value of the Description field.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Target Table List PTE - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1418236720 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Code field.</source>
+          <target state="translated">Specifies the value of the Code field.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Target Table List PTE - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1418236720 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemId field.</source>
+          <target state="translated">Specifies the value of the SystemId field.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Target Table List PTE - Control SystemId - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Report 3600239747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Image Library</source>
           <target state="translated">Image Library</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report Image Library PTE - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4106787897 - Action 3814372889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Mobile Scan</source>
+          <target state="translated">Mobile Scan</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bus. Manager Role Center PTE - Action MobileScanPTE PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3946475116 - Control 51343138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Extended Comment</source>
+          <target state="translated">Extended Comment</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Card PTE - Control RichTextDemoPTE PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3946475116 - Control 1648943214 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Specifies the multiline comment in a rich text editor.</source>
+          <target state="translated">Specifies the multiline comment in a rich text editor.</target>
+          <note from="XLIFF Sync" annotates="general" priority="1">Source text has changed. Please review the translation.</note>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Card PTE - Control ExtendedCommentControlPTE - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3311973409 - Control 1341431127 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Specifies the setup of the Item Description in the Sales Line. %1=Original value</source>
+          <target state="translated">Specifies the setup of the Item Description in the Sales Line. %1=Original value</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales &amp; Receivables Setup PTE - Control Item Description Setup PTE - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 4193986007 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3332899200">
           <source>Sales Line List</source>
           <target state="translated">Sales Line List</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Order List PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1808395472 - Field 1912613879 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Extended Comment</source>
+          <target state="translated">Extended Comment</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item PTE - Field Extended Comment PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3311973409 - Field 1341431127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Item Description Setup</source>
+          <target state="translated">Item Description Setup</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales &amp; Receivables Setup PTE - Field Item Description Setup PTE - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2876614171 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Hierarchy Style</source>

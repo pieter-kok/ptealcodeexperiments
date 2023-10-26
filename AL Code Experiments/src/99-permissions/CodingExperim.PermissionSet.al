@@ -34,5 +34,4 @@ permissionset 50200 "Coding Experim. PTE"
         page "Contract List PTE" = X,
         page "Mobile Scan PTE" = X,
         report "Image Library PTE" = X;
-
 }
