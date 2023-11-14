@@ -1113,6 +1113,18 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bus. Manager Role Center PTE - Action MobileScanPTE PTE - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2530728886 - Control 852427812 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3469146285">
+          <source>Shows the client type for the current user.</source>
+          <target state="translated">Hiermee wordt het soort client opgegeven van de huidige gebruiker.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information PTE - Control CurrentClientTypePTE PTE - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2530728886 - Control 852427812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3469146285">
+          <source>Current Client Type</source>
+          <target state="translated">Huidige clientsoort</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information PTE - Control CurrentClientTypePTE PTE - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3946475116 - Control 51343138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Extended Comment</source>
           <target state="translated">Uitgebreide opmerking</target>
