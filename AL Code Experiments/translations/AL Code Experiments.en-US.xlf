@@ -351,6 +351,36 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Contract List PTE - Control No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 810209593 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a date</source>
+          <target state="translated">Specifies a date</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Date With Day of Week - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 810209593 - Control 4038736288 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the day of the week</source>
+          <target state="translated">Specifies the day of the week</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Date With Day of Week - Control DayOfWeekProcedure - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 810209593 - Control 4038736288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Day of Week (Procedure)</source>
+          <target state="translated">Day of Week (Procedure)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Date With Day of Week - Control DayOfWeekProcedure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 810209593 - Control 1454032142 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the day of the week</source>
+          <target state="translated">Specifies the day of the week</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Date With Day of Week - Control DWY - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 810209593 - Control 1454032142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Day of Week (DWY)</source>
+          <target state="translated">Day of Week (DWY)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Date With Day of Week - Control DWY - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1252081885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Hierarchy Descriptions</source>
           <target state="translated">Hierarchy Descriptions</target>
@@ -1122,7 +1152,6 @@
         <trans-unit id="PageExtension 3946475116 - Control 1648943214 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Specifies the multiline comment in a rich text editor.</source>
           <target state="translated">Specifies the multiline comment in a rich text editor.</target>
-          <note from="XLIFF Sync" annotates="general" priority="1">Source text has changed. Please review the translation.</note>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Card PTE - Control ExtendedCommentControlPTE - Property ToolTip</note>
         </trans-unit>

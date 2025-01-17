@@ -351,6 +351,36 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Contract List PTE - Control No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 810209593 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a date</source>
+          <target state="translated">Hiermee wordt een datum opgegeven.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Date With Day of Week - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 810209593 - Control 4038736288 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the day of the week</source>
+          <target state="translated">Hiermee wordt de dag van de week opgegeven.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Date With Day of Week - Control DayOfWeekProcedure - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 810209593 - Control 4038736288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Day of Week (Procedure)</source>
+          <target state="translated">Dag van de week (procedure)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Date With Day of Week - Control DayOfWeekProcedure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 810209593 - Control 1454032142 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the day of the week</source>
+          <target state="translated">Hiermee wordt de dag van de week opgegeven.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Date With Day of Week - Control DWY - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 810209593 - Control 1454032142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Day of Week (DWY)</source>
+          <target state="translated">Dag van de week (DWY)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Date With Day of Week - Control DWY - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1252081885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Hierarchy Descriptions</source>
           <target state="translated">Hiërarchie-omschrijvingen</target>
