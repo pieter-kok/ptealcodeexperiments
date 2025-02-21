@@ -237,6 +237,12 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Target Table PTE - Field Entry No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3400242284 - Method 3419647596 - NamedType 2079520847" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report layout not found for report ID %1</source>
+          <target state="translated">Rapportlayout niet gevonden voor rapport-id %1</target>
+          <note from="Developer" annotates="general" priority="2">%1=Report ID</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate Purch. Order Doc. PTE - Method GetReportLayoutList - NamedType ReportLayoutNotFoundLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 219506241 - NamedType 356312786" size-unit="char" translate="yes" xml:space="preserve">
           <source>All Files (*.*)|*.*</source>
           <target state="translated">Alle bestanden (*.*)|*.*</target>
@@ -1154,6 +1160,30 @@
           <target state="translated">Hiermee wordt een multiregel opmerking opgegeven in een rich text editor.</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Card PTE - Control ExtendedCommentControlPTE - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3073947066 - Action 1429373887 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3195034673">
+          <source>Download the document in the report selected layout.</source>
+          <target state="translated">Download het document in de geselecteerde rapportlayout.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Order List PTE - Action DownloadPTE - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3073947066 - Action 1429373887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3195034673">
+          <source>Download</source>
+          <target state="translated">Download</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Order List PTE - Action DownloadPTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4138385936 - Action 1429373887 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 387971303">
+          <source>Download the document in the report selected layout.</source>
+          <target state="translated">Download het document in de geselecteerde rapportlayout.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Order PTE - Action DownloadPTE - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4138385936 - Action 1429373887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 387971303">
+          <source>Download</source>
+          <target state="translated">Download</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Order PTE - Action DownloadPTE - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3311973409 - Control 1341431127 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
           <source>Specifies the setup of the Item Description in the Sales Line. %1=Original value</source>
