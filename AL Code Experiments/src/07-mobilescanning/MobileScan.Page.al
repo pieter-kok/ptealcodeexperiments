@@ -1,3 +1,5 @@
+namespace PieterKok.ALCodeExperiments;
+
 page 50209 "Mobile Scan PTE"
 {
     ApplicationArea = All;
@@ -7,7 +9,7 @@ page 50209 "Mobile Scan PTE"
 
     layout
     {
-        area(content)
+        area(Content)
         {
             group(General)
             {
@@ -15,7 +17,6 @@ page 50209 "Mobile Scan PTE"
 
                 field(BarCodeValueControl; BarCodeValue)
                 {
-                    ApplicationArea = All;
                     Caption = 'Bar Code';
                     ExtendedDatatype = Barcode;
                     ToolTip = 'Scan or enter a bar code.';

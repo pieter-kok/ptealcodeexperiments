@@ -1,9 +1,13 @@
+namespace PieterKok.ALCodeExperiments;
+
+using Microsoft.Sales.Customer;
+
 table 50205 "Contract PTE"
 {
     Caption = 'Contract';
     DataClassification = CustomerContent;
-    LookupPageId = "Contract List PTE";
     DrillDownPageId = "Contract List PTE";
+    LookupPageId = "Contract List PTE";
 
     fields
     {
@@ -23,7 +27,7 @@ table 50205 "Contract PTE"
                 if not Customer.Get("Customer No.") then
                     Clear(Customer);
 
-                Validate("Customer Name", Customer."Name");
+                Validate("Customer Name", Customer.Name);
             end;
         }
         field(3; "Customer Name"; Text[100])

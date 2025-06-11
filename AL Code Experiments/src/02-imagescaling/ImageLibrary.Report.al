@@ -1,3 +1,8 @@
+namespace PieterKok.ALCodeExperiments;
+
+using System.Environment;
+using System.Utilities;
+
 report 50200 "Image Library PTE"
 {
     Caption = 'Image Library';
@@ -9,24 +14,12 @@ report 50200 "Image Library PTE"
     {
         dataitem(ImageLibrary; "Image Library PTE")
         {
-            column(EntryNo; "Entry No.")
-            {
-            }
-            column(Description; Description)
-            {
-            }
-            column(SourceHeight; "Source Height")
-            {
-            }
-            column(SourceWidth; "Source Width")
-            {
-            }
-            column(Image; TempTenantMedia.Content)
-            {
-            }
-            column(HasImage; TempTenantMedia.Content.HasValue)
-            {
-            }
+            column(EntryNo; "Entry No.") { }
+            column(Description; Description) { }
+            column(SourceHeight; "Source Height") { }
+            column(SourceWidth; "Source Width") { }
+            column(Image; TempTenantMedia.Content) { }
+            column(HasImage; TempTenantMedia.Content.HasValue) { }
 
             trigger OnAfterGetRecord()
             begin
@@ -51,11 +44,11 @@ report 50200 "Image Library PTE"
     var
         Image: Codeunit Image;
         ImageInStream: InStream;
-        ImageOutStream: OutStream;
-        CurrentWidth: Integer;
         CurrentHeight: Integer;
-        NewWidth: Integer;
+        CurrentWidth: Integer;
         NewHeight: Integer;
+        NewWidth: Integer;
+        ImageOutStream: OutStream;
     begin
         TempTenantMediaParameter.Content.CreateInStream(ImageInStream);
         Image.FromStream(ImageInStream);

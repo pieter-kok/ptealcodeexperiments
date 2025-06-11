@@ -1,3 +1,8 @@
+namespace PieterKok.ALCodeExperiments;
+
+using Microsoft.Sales.Document;
+using Microsoft.Sales.Setup;
+
 codeunit 50205 "Sales Line Subscr. PTE"
 {
     [EventSubscriber(ObjectType::Table, Database::"Sales Line", 'OnAfterCopyFromItem', '', false, false)]

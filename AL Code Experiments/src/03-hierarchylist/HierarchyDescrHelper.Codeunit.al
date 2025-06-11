@@ -1,18 +1,20 @@
+namespace PieterKok.ALCodeExperiments;
+
 codeunit 50202 "Hierarchy Descr. Helper PTE"
 {
-    internal procedure GetStyleExpr(var HierarchyDescr: Record "Hierarchy Descr. PTE") StyleExpr: Text;
+    internal procedure GetStyleExpr(var HierarchyDescr: Record "Hierarchy Descr. PTE") StyleExpr: Text
     var
-        NoneTxt: Label 'None', Locked = true;
-        StandardTxt: Label 'Standard', Locked = true;
-        StandardAccentTxt: Label 'StandardAccent', Locked = true;
-        StrongTxt: Label 'Strong', Locked = true;
-        StrongAccentTxt: Label 'StrongAccent', Locked = true;
-        AttentionTxt: Label 'Attention', Locked = true;
-        AttentionAccentTxt: Label 'AttentionAccent', Locked = true;
-        FavorableTxt: Label 'Favorable', Locked = true;
-        UnfavorableTxt: Label 'Unfavorable', Locked = true;
         AmbiguousTxt: Label 'Ambiguous', Locked = true;
+        AttentionAccentTxt: Label 'AttentionAccent', Locked = true;
+        AttentionTxt: Label 'Attention', Locked = true;
+        FavorableTxt: Label 'Favorable', Locked = true;
+        NoneTxt: Label 'None', Locked = true;
+        StandardAccentTxt: Label 'StandardAccent', Locked = true;
+        StandardTxt: Label 'Standard', Locked = true;
+        StrongAccentTxt: Label 'StrongAccent', Locked = true;
+        StrongTxt: Label 'Strong', Locked = true;
         SubordinateTxt: Label 'Subordinate', Locked = true;
+        UnfavorableTxt: Label 'Unfavorable', Locked = true;
     begin
         case HierarchyDescr.Style of
             HierarchyDescr.Style::None:

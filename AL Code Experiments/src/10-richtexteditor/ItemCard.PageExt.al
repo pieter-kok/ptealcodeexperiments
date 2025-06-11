@@ -1,3 +1,7 @@
+namespace PieterKok.ALCodeExperiments;
+
+using Microsoft.Inventory.Item;
+
 pageextension 50203 "Item Card PTE" extends "Item Card"
 {
     layout
@@ -8,12 +12,12 @@ pageextension 50203 "Item Card PTE" extends "Item Card"
             {
                 Caption = 'Extended Comment';
 
-                field("ExtendedCommentControlPTE"; RichTextPTE)
+                field(ExtendedCommentControlPTE; RichTextPTE)
                 {
                     ApplicationArea = All;
-                    ShowCaption = false;
-                    MultiLine = true;
                     ExtendedDatatype = RichContent;
+                    MultiLine = true;
+                    ShowCaption = false;
                     ToolTip = 'Specifies the multiline comment in a rich text editor.';
 
                     trigger OnValidate()

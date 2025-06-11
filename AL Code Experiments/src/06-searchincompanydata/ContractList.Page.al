@@ -1,7 +1,9 @@
+namespace PieterKok.ALCodeExperiments;
+
 page 50208 "Contract List PTE"
 {
-    ApplicationArea = All;
     AdditionalSearchTerms = 'Contract List';
+    ApplicationArea = All;
     Caption = 'Contracts';
     CardPageId = "Contract Card PTE";
     PageType = List;
@@ -10,23 +12,20 @@ page 50208 "Contract List PTE"
 
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(General)
             {
                 field("No."; Rec."No.")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the value of the No. field.';
                 }
                 field("Customer No."; Rec."Customer No.")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Customer No. field.';
                 }
                 field("Customer Name"; Rec."Customer Name")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Customer Name field.';
                 }
             }

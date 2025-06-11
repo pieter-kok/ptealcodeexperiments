@@ -1,3 +1,5 @@
+namespace PieterKok.ALCodeExperiments;
+
 page 50210 "Contract Card PTE"
 {
     ApplicationArea = All;
@@ -8,7 +10,7 @@ page 50210 "Contract Card PTE"
 
     layout
     {
-        area(content)
+        area(Content)
         {
             group(General)
             {

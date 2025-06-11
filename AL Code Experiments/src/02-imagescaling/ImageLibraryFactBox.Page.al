@@ -1,3 +1,5 @@
+namespace PieterKok.ALCodeExperiments;
+
 page 50202 "Image Library FactBox PTE"
 {
     Caption = 'Images';
@@ -6,17 +8,17 @@ page 50202 "Image Library FactBox PTE"
     LinksAllowed = false;
     PageType = CardPart;
     SourceTable = "Image Library PTE";
+    ApplicationArea = All;
 
     layout
     {
-        area(content)
+        area(Content)
         {
             group(Source)
             {
                 Caption = 'Source';
                 field("Source Image"; Rec."Source Image")
                 {
-                    ApplicationArea = All;
                     ShowCaption = false;
                     ToolTip = 'Specifies the source image.';
                 }
@@ -26,7 +28,6 @@ page 50202 "Image Library FactBox PTE"
                 Caption = 'Target';
                 field("Target Image"; Rec."Target Image")
                 {
-                    ApplicationArea = All;
                     ShowCaption = false;
                     ToolTip = 'Specifies the target image.';
                 }

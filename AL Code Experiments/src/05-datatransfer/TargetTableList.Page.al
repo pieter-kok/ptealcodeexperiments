@@ -1,3 +1,5 @@
+namespace PieterKok.ALCodeExperiments;
+
 page 50207 "Target Table List PTE"
 {
     ApplicationArea = All;
@@ -8,7 +10,7 @@ page 50207 "Target Table List PTE"
 
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(General)
             {

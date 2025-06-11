@@ -1,9 +1,11 @@
+namespace PieterKok.ALCodeExperiments;
+
 enum 50200 "Hierarchy Style PTE"
 {
     Caption = 'Hierarchy Style';
     Extensible = true;
 
-    value(0; "None")
+    value(0; None)
     {
         Caption = 'None';
     }

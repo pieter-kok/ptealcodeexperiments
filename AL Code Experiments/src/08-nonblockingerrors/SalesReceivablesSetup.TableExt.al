@@ -1,3 +1,7 @@
+namespace PieterKok.ALCodeExperiments;
+
+using Microsoft.Sales.Setup;
+
 tableextension 50201 "Sales & Receivables Setup PTE" extends "Sales & Receivables Setup"
 {
     fields
