@@ -2,8 +2,9 @@ permissionset 50200 "Coding Experim. PTE"
 {
     Assignable = true;
     Caption = 'Coding Experiments';
-    Permissions =
-        table "Contract PTE" = X,
+    Permissions = table "Action Message Log PTE" = X,
+            tabledata "Action Message Log PTE" = RIMD,
+table "Contract PTE" = X,
         tabledata "Contract PTE" = RMID,
         table "Hierarchy Descr. PTE" = X,
         tabledata "Hierarchy Descr. PTE" = RMID,
@@ -23,7 +24,9 @@ permissionset 50200 "Coding Experim. PTE"
         codeunit "Open Setup PTE" = X,
         codeunit "ReportManagement Subscr. PTE" = X,
         codeunit "Sales Line Subscr. PTE" = X,
+        codeunit "Unbound Actions PTE" = X,
         codeunit "Upgrade Data Transfer PTE" = X,
+        page "Action Message Logs PTE" = X,
         page "Contract Card PTE" = X,
         page "Contract List PTE" = X,
         page "Date With Day of Week" = X,

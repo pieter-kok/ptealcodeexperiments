@@ -3,6 +3,84 @@
   <file datatype="xml" source-language="en-US" target-language="nl-NL" original="AL Code Experiments">
     <body>
       <group id="body">
+        <trans-unit id="Table 2145070820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action Message Log</source>
+          <target state="translated">Actieberichtlog</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Message Log PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2145070820 - Field 2570673311 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the time on which the action message is created.</source>
+          <target state="translated">Hiermee wordt de tijd opgegeven waarop het actiebericht is aangemaakt.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Message Log PTE - Field Created At - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2145070820 - Field 2570673311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created At</source>
+          <target state="translated">Aangemaakt om</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Message Log PTE - Field Created At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2145070820 - Field 2369664869 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the user on which the action message is created.</source>
+          <target state="translated">Hiermee wordt de gebruiker opgegven die het actiebericht heeft aangemaakt.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Message Log PTE - Field Created By - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2145070820 - Field 2369664869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created By</source>
+          <target state="translated">Aangemaakt door</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Message Log PTE - Field Created By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2145070820 - Field 2389018819 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date on which the action message is created.</source>
+          <target state="translated">Hiermee wordt de datum opgegeven waarop het actiebericht is aangemaakt.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Message Log PTE - Field Created On - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2145070820 - Field 2389018819 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created On</source>
+          <target state="translated">Aangemaakt op</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Message Log PTE - Field Created On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2145070820 - Field 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a unique entry number for the action message log.</source>
+          <target state="translated">Hiermee wordt een uniek volgnummer opgegeven voor het actieberichtlog.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Message Log PTE - Field Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2145070820 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target state="translated">Volgnr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Message Log PTE - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2145070820 - Field 1476062623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the error text that occurred during processing the action message.</source>
+          <target state="translated">Hiermee wordt de fouttekst opgegeven die is opgetreden tijdens het verwerken van het actiebericht.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Message Log PTE - Field Error Text - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2145070820 - Field 1476062623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Text</source>
+          <target state="translated">Fouttekst</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Message Log PTE - Field Error Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2145070820 - Field 3351914939 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the received request json.</source>
+          <target state="translated">Hiermee wordt de ontvangen json-aanvraag opgegeven.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Message Log PTE - Field Request - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2145070820 - Field 3351914939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request</source>
+          <target state="translated">Aanvraag</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Message Log PTE - Field Request - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2466488221 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Contract</source>
           <target state="translated">Contract</target>
@@ -296,6 +374,54 @@
           <target state="translated">Opent de instellingen zodat de missende waarde kan worden opgegeven.</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Sales Line Subscr. PTE - Method ReplaceItemDescription - NamedType OpenSetupTooltipLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 307986589 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action Message Logs</source>
+          <target state="translated">Actieberichtlogs</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Action Message Logs PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 307986589 - Control 2234879246 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether there is request message stored in the message log.</source>
+          <target state="translated">Hiermee wordt opgegeven of er een aanvraagbericht is opgeslagen in het berichtlog.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Action Message Logs PTE - Control Contains Request - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 307986589 - Control 2234879246 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contains Request</source>
+          <target state="translated">Bevat aanvraag</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Action Message Logs PTE - Control Contains Request - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 307986589 - Action 3219083399 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Downloads the json request that is stored in the action message log.</source>
+          <target state="translated">Hiermee wordt de json-aanvraag gedownload die is opgeslagen in het actieberichtlog.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Action Message Logs PTE - Action DownloadRequest - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 307986589 - Action 3219083399 - Method 1377591017 - NamedType 356312786" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All files (*.*)|*.*</source>
+          <target state="translated">Alle bestanden (*.*)|*.*</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Action Message Logs PTE - Action DownloadRequest - Method OnAction - NamedType AllFilesLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 307986589 - Action 3219083399 - Method 1377591017 - NamedType 4210430314" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download</source>
+          <target state="translated">Download</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Action Message Logs PTE - Action DownloadRequest - Method OnAction - NamedType DownloadLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 307986589 - Action 3219083399 - Method 1377591017 - NamedType 3351274" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 not found in %2 with %3='%4'.</source>
+          <target state="translated">%1 is niet gevonden in het %2 met %3='%4'.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Request FieldCaption, %2=Action Message Log TableCaption, %3=Entry No. FieldCaption, %4=Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Action Message Logs PTE - Action DownloadRequest - Method OnAction - NamedType NotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Page 307986589 - Action 3219083399 - Method 1377591017 - NamedType 1078805424" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An unexpected error occurred during downloading the %1 of %2 with %3='%4'.</source>
+          <target state="translated">Er is een onverwachte fout opgetreden tijdens het downloaden van de %1 van het %2 met %3='%4'.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Request FieldCaption, %2=Action Message Log TableCaption, %3=Entry No. FieldCaption, %4=Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Action Message Logs PTE - Action DownloadRequest - Method OnAction - NamedType UnexpectedDownloadErr</note>
         </trans-unit>
         <trans-unit id="Page 1747109625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Contract Card</source>
