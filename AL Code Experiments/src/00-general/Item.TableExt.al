@@ -1,3 +1,7 @@
+namespace PieterKok.ALCodeExperiments;
+
+using Microsoft.Inventory.Item;
+
 tableextension 50200 "Item PTE" extends Item
 {
     fields

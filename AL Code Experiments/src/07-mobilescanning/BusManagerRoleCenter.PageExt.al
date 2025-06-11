@@ -1,3 +1,7 @@
+namespace PieterKok.ALCodeExperiments;
+
+using Microsoft.Finance.RoleCenters;
+
 pageextension 50201 "Bus. Manager Role Center PTE" extends "Business Manager Role Center"
 {
     actions
@@ -8,7 +12,7 @@ pageextension 50201 "Bus. Manager Role Center PTE" extends "Business Manager Rol
             {
                 ApplicationArea = All;
                 Caption = 'Mobile Scan';
-                RunObject = Page "Mobile Scan PTE";
+                RunObject = page "Mobile Scan PTE";
             }
         }
     }

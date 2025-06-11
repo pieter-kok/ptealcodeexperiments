@@ -1,3 +1,5 @@
+namespace PieterKok.ALCodeExperiments;
+
 table 50204 "Target Table PTE"
 {
     Caption = 'Target Table';

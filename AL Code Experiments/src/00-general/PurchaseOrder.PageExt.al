@@ -1,3 +1,7 @@
+namespace PieterKok.ALCodeExperiments;
+
+using Microsoft.Purchases.Document;
+
 pageextension 50205 "Purchase Order PTE" extends "Purchase Order"
 {
     actions

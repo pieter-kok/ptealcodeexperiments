@@ -1,3 +1,8 @@
+namespace PieterKok.ALCodeExperiments;
+
+using Microsoft.Sales.Setup;
+using Microsoft.Utilities;
+
 codeunit 50206 "Open Setup PTE"
 {
     procedure OpenSetup(ErrInfo: ErrorInfo)

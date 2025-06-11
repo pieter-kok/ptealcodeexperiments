@@ -1,3 +1,7 @@
+namespace PieterKok.ALCodeExperiments;
+
+using System.Reflection;
+
 table 50200 "Report Substitution PTE"
 {
     Caption = 'Report Substitution';
@@ -9,8 +13,8 @@ table 50200 "Report Substitution PTE"
     {
         field(1; "Original Report ID"; Integer)
         {
-            Caption = 'Original Report ID';
             BlankZero = true;
+            Caption = 'Original Report ID';
             DataClassification = CustomerContent;
             TableRelation = AllObjWithCaption."Object ID" where("Object Type" = const(Report));
         }
@@ -22,8 +26,8 @@ table 50200 "Report Substitution PTE"
         }
         field(20; "New Report ID"; Integer)
         {
-            Caption = 'New Report ID';
             BlankZero = true;
+            Caption = 'New Report ID';
             DataClassification = CustomerContent;
             TableRelation = AllObjWithCaption."Object ID" where("Object Type" = const(Report));
         }

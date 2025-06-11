@@ -1,9 +1,12 @@
+namespace PieterKok.ALCodeExperiments;
+
 page 50201 "Image Library Card PTE"
 {
     Caption = 'Image Library Card';
     PageType = Card;
     SourceTable = "Image Library PTE";
     UsageCategory = None;
+    ApplicationArea = All;
 
     layout
     {
@@ -15,12 +18,10 @@ page 50201 "Image Library Card PTE"
 
                 field("Entry No."; Rec."Entry No.")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies an entry number.';
                 }
                 field(Description; Rec.Description)
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies a description for the image.';
                 }
             }
@@ -31,29 +32,24 @@ page 50201 "Image Library Card PTE"
 
                 field("Source Base64"; Rec."Source Base64".HasValue)
                 {
-                    ApplicationArea = All;
                     Caption = 'Source Base64 Available';
-                    ToolTip = 'Specifies whether the Base64 version of the source image is available.';
                     Editable = false;
+                    ToolTip = 'Specifies whether the Base64 version of the source image is available.';
                 }
                 field("Source Height"; Rec."Source Height")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the height of the source image.';
                 }
                 field("Source Width"; Rec."Source Width")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the width of the source image.';
                 }
                 field("Source Format"; Rec."Source Format")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the format of the source image.';
                 }
                 field("Source Format Text"; Rec."Source Format Text")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the text representation of the format of the source image.';
                 }
             }
@@ -63,22 +59,18 @@ page 50201 "Image Library Card PTE"
 
                 field("Crop X"; Rec."Crop X")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the X coordinate of the rectangle.';
                 }
                 field("Crop Y"; Rec."Crop Y")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the Y coordinate of the rectangle.';
                 }
-                field(Height; Rec."Height")
+                field(Height; Rec.Height)
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the height of the rectangle.';
                 }
-                field(Width; Rec."Width")
+                field(Width; Rec.Width)
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the width of the rectangle.';
                 }
             }
@@ -88,29 +80,24 @@ page 50201 "Image Library Card PTE"
 
                 field("Target Base64"; Rec."Target Base64".HasValue)
                 {
-                    ApplicationArea = All;
                     Caption = 'Target Base64 Available';
-                    ToolTip = 'Specifies whether the Base64 version of the target image is available.';
                     Editable = false;
+                    ToolTip = 'Specifies whether the Base64 version of the target image is available.';
                 }
                 field("Target Height"; Rec."Target Height")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the height of the target image.';
                 }
                 field("Target Width"; Rec."Target Width")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the width of the target image.';
                 }
                 field("Target Format"; Rec."Target Format")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the format of the target image.';
                 }
                 field("Target Format Text"; Rec."Target Format Text")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the text representation of the format of the target image.';
                 }
             }
@@ -119,7 +106,6 @@ page 50201 "Image Library Card PTE"
         {
             part("Image Library FactBox PTE"; "Image Library FactBox PTE")
             {
-                ApplicationArea = All;
                 SubPageLink = "Entry No." = field("Entry No.");
             }
         }
@@ -133,7 +119,6 @@ page 50201 "Image Library Card PTE"
             {
                 action(Print)
                 {
-                    ApplicationArea = All;
                     Caption = 'Print';
                     Image = Print;
                     ToolTip = 'Print the image library.';
@@ -150,7 +135,6 @@ page 50201 "Image Library Card PTE"
 
                 action(ImportSourceImage)
                 {
-                    ApplicationArea = All;
                     Caption = 'Import Source Image';
                     Image = Import;
                     ToolTip = 'Uploads an image as source image.';
@@ -162,7 +146,6 @@ page 50201 "Image Library Card PTE"
                 }
                 action(DeleteSourceImage)
                 {
-                    ApplicationArea = All;
                     Caption = 'Delete Source Image';
                     Image = Delete;
                     ToolTip = 'Deletes the current source image.';
@@ -174,7 +157,6 @@ page 50201 "Image Library Card PTE"
                 }
                 action(ExportSourceImageMedia)
                 {
-                    ApplicationArea = All;
                     Caption = 'Export Source Image';
                     Image = Export;
                     ToolTip = 'Exports the current source image.';
@@ -186,7 +168,6 @@ page 50201 "Image Library Card PTE"
                 }
                 action(ExportSourceImageBase64)
                 {
-                    ApplicationArea = All;
                     Caption = 'Export Source Base64';
                     Image = Export;
                     ToolTip = 'Exports the base64 version of the source image .';
@@ -203,7 +184,6 @@ page 50201 "Image Library Card PTE"
 
                 action(CropImage)
                 {
-                    ApplicationArea = All;
                     Caption = 'Crop Image';
                     Image = Change;
                     ToolTip = 'Crops the image according to the function parameters.';
@@ -215,7 +195,6 @@ page 50201 "Image Library Card PTE"
                 }
                 action(ResizeImage)
                 {
-                    ApplicationArea = All;
                     Caption = 'Resize Image';
                     Image = Dimensions;
                     ToolTip = 'Resizes the image according to the function parameters.';
@@ -232,7 +211,6 @@ page 50201 "Image Library Card PTE"
 
                 action(DeleteTargetImage)
                 {
-                    ApplicationArea = All;
                     Caption = 'Delete Target Image';
                     Image = Delete;
                     ToolTip = 'Deletes the current target image.';
@@ -244,7 +222,6 @@ page 50201 "Image Library Card PTE"
                 }
                 action(ExportTargetImage)
                 {
-                    ApplicationArea = All;
                     Caption = 'Export Target Image';
                     Image = Export;
                     ToolTip = 'Exports the current target image.';
@@ -256,7 +233,6 @@ page 50201 "Image Library Card PTE"
                 }
                 action(ExportTargetBase64)
                 {
-                    ApplicationArea = All;
                     Caption = 'Export Target Base64';
                     Image = Export;
                     ToolTip = 'Exports the base64 version of the current target image .';
@@ -274,51 +250,31 @@ page 50201 "Image Library Card PTE"
             {
                 Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
 
-                actionref(Print_Promoted; Print)
-                {
-                }
+                actionref(Print_Promoted; Print) { }
             }
             group(Category_Category4)
             {
                 Caption = 'Source', Comment = 'Generated from the PromotedActionCategories property index 3.';
 
-                actionref(ImportSourceImage_Promoted; ImportSourceImage)
-                {
-                }
-                actionref(DeleteSourceImage_Promoted; DeleteSourceImage)
-                {
-                }
-                actionref(ExportSourceImageMedia_Promoted; ExportSourceImageMedia)
-                {
-                }
-                actionref(ExportSourceImageBase64_Promoted; ExportSourceImageBase64)
-                {
-                }
+                actionref(ImportSourceImage_Promoted; ImportSourceImage) { }
+                actionref(DeleteSourceImage_Promoted; DeleteSourceImage) { }
+                actionref(ExportSourceImageMedia_Promoted; ExportSourceImageMedia) { }
+                actionref(ExportSourceImageBase64_Promoted; ExportSourceImageBase64) { }
             }
             group(Category_Category5)
             {
                 Caption = 'Functions', Comment = 'Generated from the PromotedActionCategories property index 4.';
 
-                actionref(CropImage_Promoted; CropImage)
-                {
-                }
-                actionref(ResizeImage_Promoted; ResizeImage)
-                {
-                }
+                actionref(CropImage_Promoted; CropImage) { }
+                actionref(ResizeImage_Promoted; ResizeImage) { }
             }
             group(Category_Category6)
             {
                 Caption = 'Target', Comment = 'Generated from the PromotedActionCategories property index 5.';
 
-                actionref(DeleteTargetImage_Promoted; DeleteTargetImage)
-                {
-                }
-                actionref(ExportTargetImage_Promoted; ExportTargetImage)
-                {
-                }
-                actionref(ExportTargetBase64_Promoted; ExportTargetBase64)
-                {
-                }
+                actionref(DeleteTargetImage_Promoted; DeleteTargetImage) { }
+                actionref(ExportTargetImage_Promoted; ExportTargetImage) { }
+                actionref(ExportTargetBase64_Promoted; ExportTargetBase64) { }
             }
         }
     }

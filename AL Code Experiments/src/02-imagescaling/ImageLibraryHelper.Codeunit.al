@@ -1,12 +1,17 @@
+namespace PieterKok.ALCodeExperiments;
+
+using System.Environment;
+using System.Utilities;
+
 codeunit 50201 "Image Library Helper PTE"
 {
     var
-        OverrideImageQst: Label 'The existing image will be replaced. Do you want to continue?';
+        AllFilesLbl: Label 'All Files (*.*)|*.*';
         DeleteImageQst: Label 'Are you sure you want to delete the image?';
         ImportLbl: Label 'Import';
-        AllFilesLbl: Label 'All Files (*.*)|*.*';
-        TargetLbl: Label 'Target';
         NoImageFoundErr: Label 'No image found.';
+        OverrideImageQst: Label 'The existing image will be replaced. Do you want to continue?';
+        TargetLbl: Label 'Target';
 
     internal procedure ImportImage(var ImageLibrary: Record "Image Library PTE"; CalledFromFieldNo: Integer)
     var
@@ -41,8 +46,8 @@ codeunit 50201 "Image Library Helper PTE"
                             ImageLibrary."Source Base64".CreateOutStream(ImageOutStream);
                             ImageOutStream.WriteText(Image.ToBase64());
 
-                            ImageLibrary."Height" := Image.GetHeight();
-                            ImageLibrary."Width" := Image.GetWidth();
+                            ImageLibrary.Height := Image.GetHeight();
+                            ImageLibrary.Width := Image.GetWidth();
                         end
                     end;
                 ImageLibrary.FieldNo("Target Image"):
@@ -62,8 +67,8 @@ codeunit 50201 "Image Library Helper PTE"
                             ImageLibrary."Target Base64".CreateOutStream(ImageOutStream);
                             ImageOutStream.WriteText(Image.ToBase64());
 
-                            ImageLibrary."Height" := Image.GetHeight();
-                            ImageLibrary."Width" := Image.GetWidth();
+                            ImageLibrary.Height := Image.GetHeight();
+                            ImageLibrary.Width := Image.GetWidth();
                         end
                     end;
             end;
@@ -97,8 +102,8 @@ codeunit 50201 "Image Library Helper PTE"
                     Clear(ImageLibrary."Target Format");
                     Clear(ImageLibrary."Target Format Text");
 
-                    ImageLibrary."Height" := ImageLibrary."Source Height";
-                    ImageLibrary."Width" := ImageLibrary."Source Width";
+                    ImageLibrary.Height := ImageLibrary."Source Height";
+                    ImageLibrary.Width := ImageLibrary."Source Width";
                 end
         end;
 
@@ -134,8 +139,8 @@ codeunit 50201 "Image Library Helper PTE"
     internal procedure ExportBase64(var ImageLibrary: Record "Image Library PTE"; CalledFromFieldNo: Integer)
     var
         Base64InStream: InStream;
-        Base64FileName: Text;
         TxtLbl: Label '.txt', Locked = true;
+        Base64FileName: Text;
     begin
         ImageLibrary.TestField("Entry No.");
         ImageLibrary.TestField(Description);
@@ -180,8 +185,8 @@ codeunit 50201 "Image Library Helper PTE"
         ImageLibrary."Target Base64".CreateOutStream(ImageOutStream);
         ImageOutStream.WriteText(Image.ToBase64());
 
-        ImageLibrary."Height" := Image.GetHeight();
-        ImageLibrary."Width" := Image.GetWidth();
+        ImageLibrary.Height := Image.GetHeight();
+        ImageLibrary.Width := Image.GetWidth();
 
         ImageLibrary.Modify(true);
     end;
@@ -222,7 +227,7 @@ codeunit 50201 "Image Library Helper PTE"
 
     internal procedure PrintImageLibrary(var ImageLibrary: Record "Image Library PTE")
     begin
-        Report.Runmodal(Report::"Image Library PTE", true, false, ImageLibrary);
+        Report.RunModal(Report::"Image Library PTE", true, false, ImageLibrary);
     end;
 
     local procedure GetBase64Text(var ImageLibrary: Record "Image Library PTE"; CalledFromFieldNo: Integer) Base64Text: Text

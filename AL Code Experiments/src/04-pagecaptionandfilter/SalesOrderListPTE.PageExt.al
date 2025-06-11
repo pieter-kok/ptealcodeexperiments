@@ -1,3 +1,7 @@
+namespace PieterKok.ALCodeExperiments;
+
+using Microsoft.Sales.Document;
+
 pageextension 50200 "Sales Order List PTE" extends "Sales Order List"
 {
     Caption = 'Sales Line List';

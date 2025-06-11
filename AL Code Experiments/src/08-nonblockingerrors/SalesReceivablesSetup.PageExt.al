@@ -1,3 +1,7 @@
+namespace PieterKok.ALCodeExperiments;
+
+using Microsoft.Sales.Setup;
+
 pageextension 50202 "Sales & Receivables Setup PTE" extends "Sales & Receivables Setup"
 {
     layout

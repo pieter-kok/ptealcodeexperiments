@@ -1,3 +1,12 @@
+namespace PieterKok.ALCodeExperiments;
+
+using Microsoft.Foundation.Reporting;
+using Microsoft.Purchases.Document;
+using Microsoft.Shared.Report;
+using System.IO;
+using System.Reflection;
+using System.Utilities;
+
 codeunit 50208 "Generate Purch. Order Doc. PTE"
 {
     Permissions =

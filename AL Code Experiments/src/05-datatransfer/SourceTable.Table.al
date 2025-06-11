@@ -1,3 +1,5 @@
+namespace PieterKok.ALCodeExperiments;
+
 table 50203 "Source Table PTE"
 {
     Caption = 'Source Table';

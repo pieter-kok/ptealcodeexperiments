@@ -1,3 +1,7 @@
+namespace PieterKok.ALCodeExperiments;
+
+using System.Upgrade;
+
 codeunit 50203 "Upgrade Data Transfer PTE"
 {
     Subtype = Upgrade;
@@ -17,7 +21,7 @@ codeunit 50203 "Upgrade Data Transfer PTE"
             exit;
 
         TargetDataTransfer.SetTables(Database::"Source Table PTE", Database::"Target Table PTE");
-        TargetDataTransfer.AddFieldValue(2, TargetTable.FieldNo("Description"));
+        TargetDataTransfer.AddFieldValue(2, TargetTable.FieldNo(Description));
 
         //SystemId cannot be transferred:
         //Systeem-id wordt niet ondersteund als doelveld voor gegevensoverdracht. Alleen 'normale' velden die zijn geactiveerd, en die geen systeemveld, geen controleveld en geen onderdeel van de primaire sleutel zijn, zijn geldige doelvelden.
@@ -30,7 +34,7 @@ codeunit 50203 "Upgrade Data Transfer PTE"
 
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Upgrade Tag", 'OnGetPerCompanyUpgradeTags', '', false, false)]
-    local procedure OnGetPerCompanyUpgradeTags(var PerCompanyUpgradeTags: List of [Code[250]]);
+    local procedure OnGetPerCompanyUpgradeTags(var PerCompanyUpgradeTags: List of [Code[250]])
     begin
         PerCompanyUpgradeTags.Add(CopySourceToTargetLbl);
     end;

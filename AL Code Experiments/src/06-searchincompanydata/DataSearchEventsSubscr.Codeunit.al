@@ -1,3 +1,8 @@
+namespace PieterKok.ALCodeExperiments;
+
+using Microsoft.Finance.RoleCenters;
+using Microsoft.Foundation.DataSearch;
+
 codeunit 50204 "Data Search Events Subscr. PTE"
 {
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Data Search Events", 'OnAfterGetFieldListForTable', '', false, false)]

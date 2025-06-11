@@ -1,11 +1,15 @@
+namespace PieterKok.ALCodeExperiments;
+
+using System.Utilities;
+
 page 50211 "Date With Day of Week"
 {
     ApplicationArea = All;
-    PageType = List;
     Editable = false;
-    UsageCategory = Administration;
+    PageType = List;
     SourceTable = Date;
     SourceTableView = where("Period Type" = const(Date));
+    UsageCategory = Administration;
 
     layout
     {

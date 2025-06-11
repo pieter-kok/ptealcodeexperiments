@@ -1,3 +1,7 @@
+namespace PieterKok.ALCodeExperiments;
+
+using System.Text;
+
 page 50205 "Hierarchy Descr. Tree PTE"
 {
     ApplicationArea = All;
@@ -9,7 +13,7 @@ page 50205 "Hierarchy Descr. Tree PTE"
 
     layout
     {
-        area(content)
+        area(Content)
         {
             group(Filters)
             {
@@ -17,7 +21,6 @@ page 50205 "Hierarchy Descr. Tree PTE"
 
                 field(DescriptionFilterControl; DescriptionFilter)
                 {
-                    ApplicationArea = All;
                     Caption = 'Description Filter';
                     ToolTip = 'Specifies a filter on description.';
 
@@ -39,21 +42,18 @@ page 50205 "Hierarchy Descr. Tree PTE"
 
                 field("Code"; Rec."Code")
                 {
-                    ApplicationArea = All;
                     Editable = false;
                     StyleExpr = CurrStyleExpr;
                     ToolTip = 'Specifies a code.';
                 }
                 field(Description; Rec.Description)
                 {
-                    ApplicationArea = All;
                     Editable = false;
                     StyleExpr = CurrStyleExpr;
                     ToolTip = 'Specifies a description.';
                 }
                 field(Level; Rec.Level)
                 {
-                    ApplicationArea = All;
                     StyleExpr = CurrStyleExpr;
                     ToolTip = 'Specifies the level for the hierarchy.';
 
@@ -64,7 +64,6 @@ page 50205 "Hierarchy Descr. Tree PTE"
                 }
                 field(Style; Rec.Style)
                 {
-                    ApplicationArea = All;
                     StyleExpr = CurrStyleExpr;
                     ToolTip = 'Specifies the style.';
 

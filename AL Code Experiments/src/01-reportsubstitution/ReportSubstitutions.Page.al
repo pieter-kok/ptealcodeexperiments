@@ -1,3 +1,8 @@
+namespace PieterKok.ALCodeExperiments;
+
+using Microsoft.Foundation.Reporting;
+using Microsoft.Projects.Project.Reports;
+
 page 50200 "Report Substitutions PTE"
 {
     ApplicationArea = All;
@@ -8,13 +13,12 @@ page 50200 "Report Substitutions PTE"
 
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(General)
             {
                 field("Original Report ID"; Rec."Original Report ID")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the original report id.';
 
                     trigger OnValidate()
@@ -24,12 +28,10 @@ page 50200 "Report Substitutions PTE"
                 }
                 field("Original Report Caption"; Rec."Original Report Caption")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the caption of the original report.';
                 }
                 field("New Report ID"; Rec."New Report ID")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the value the new report id.';
 
                     trigger OnValidate()
@@ -39,7 +41,6 @@ page 50200 "Report Substitutions PTE"
                 }
                 field("New Report Caption"; Rec."New Report Caption")
                 {
-                    ApplicationArea = All;
                     ToolTip = 'Specifies the caption of the new report.';
                 }
             }
@@ -51,7 +52,6 @@ page 50200 "Report Substitutions PTE"
         {
             action(InitJobQuoteReport)
             {
-                ApplicationArea = All;
                 Caption = 'Init Job Quote Report';
                 Image = Report;
                 ToolTip = 'Initializes the job quote report in report selections.';
