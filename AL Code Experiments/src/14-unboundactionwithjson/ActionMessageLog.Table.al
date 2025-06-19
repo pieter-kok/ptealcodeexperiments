@@ -22,7 +22,7 @@ table 50206 "Action Message Log PTE"
             Caption = 'Created On';
             ToolTip = 'Specifies the date on which the action message is created.';
         }
-        field(30; "Created At"; Date)
+        field(30; "Created At"; Time)
         {
             Caption = 'Created At';
             ToolTip = 'Specifies the time on which the action message is created.';
@@ -54,7 +54,7 @@ table 50206 "Action Message Log PTE"
         ActionMessageLogHelper.Create(Rec);
     end;
 
-    internal procedure AddRequest(RequestJson: JsonObject)
+    internal procedure AddRequest(RequestJson: JsonToken)
     begin
         ActionMessageLogHelper.AddRequest(Rec, RequestJson);
     end;

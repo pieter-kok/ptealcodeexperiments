@@ -32,6 +32,7 @@ page 50213 "Action Message Logs PTE"
         {
             action(DownloadRequest)
             {
+                Caption = 'Download';
                 Image = Download;
                 ToolTip = 'Downloads the json request that is stored in the action message log.';
 
@@ -48,12 +49,17 @@ page 50213 "Action Message Logs PTE"
                     if not Rec.Request.HasValue() then
                         Error(ErrorInfo.Create(StrSubstNo(NotFoundErr, Rec.FieldCaption(Request), Rec.TableCaption(), Rec.FieldCaption("Entry No."), Rec."Entry No.")));
 
+                    Rec.CalcFields(Request);
                     Rec.Request.CreateInStream(JsonInstream);
                     TempFileName := StrSubstNo(FileNameLbl, Rec.TableCaption(), Rec."Entry No.");
                     if not DownloadFromStream(JsonInstream, DownloadLbl, '', AllFilesLbl, TempFileName) then
                         Error(ErrorInfo.Create(StrSubstNo(UnexpectedDownloadErr, Rec.FieldCaption(Request), Rec.TableCaption(), Rec.FieldCaption("Entry No."), Rec."Entry No.")))
                 end;
             }
+        }
+        area(Promoted)
+        {
+            actionref(DownloadRequest_Promoted; DownloadRequest) { }
         }
     }
 }

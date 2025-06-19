@@ -5,14 +5,14 @@ codeunit 50211 "Process Act. Message Meth PTE"
     TableNo = "Action Message Log PTE";
 
     var
-        InputJson: JsonObject;
+        InputJson: JsonToken;
 
     trigger OnRun()
     begin
         ProcessActionMessage(Rec, InputJson);
     end;
 
-    internal procedure ProcessActionMessage(var ActionMessageLog: Record "Action Message Log PTE"; RequestJson: JsonObject)
+    internal procedure ProcessActionMessage(var ActionMessageLog: Record "Action Message Log PTE"; RequestJson: JsonToken)
     var
         IsHandled: Boolean;
     begin
@@ -21,12 +21,12 @@ codeunit 50211 "Process Act. Message Meth PTE"
         OnAfterProcessActionMessage(ActionMessageLog, RequestJson);
     end;
 
-    internal procedure SetInputJson(Json: JsonObject)
+    internal procedure SetInputJson(Json: JsonToken)
     begin
         InputJson := Json;
     end;
 
-    local procedure DoProcessActionMessage(var ActionMessageLog: Record "Action Message Log PTE"; RequestJson: JsonObject; IsHandled: Boolean)
+    local procedure DoProcessActionMessage(var ActionMessageLog: Record "Action Message Log PTE"; RequestJson: JsonToken; IsHandled: Boolean)
     begin
         if IsHandled then
             exit;
@@ -43,18 +43,18 @@ codeunit 50211 "Process Act. Message Meth PTE"
         ActionMessageLog.Create();
     end;
 
-    local procedure StoreInputJson(var ActionMessageLog: Record "Action Message Log PTE"; RequestJson: JsonObject)
+    local procedure StoreInputJson(var ActionMessageLog: Record "Action Message Log PTE"; RequestJson: JsonToken)
     begin
         ActionMessageLog.AddRequest(RequestJson);
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeProcessActionMessage(var ActionMessageLog: Record "Action Message Log PTE"; RequestJson: JsonObject; var IsHandled: Boolean)
+    local procedure OnBeforeProcessActionMessage(var ActionMessageLog: Record "Action Message Log PTE"; RequestJson: JsonToken; var IsHandled: Boolean)
     begin
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnAfterProcessActionMessage(var ActionMessageLog: Record "Action Message Log PTE"; RequestJson: JsonObject)
+    local procedure OnAfterProcessActionMessage(var ActionMessageLog: Record "Action Message Log PTE"; RequestJson: JsonToken)
     begin
     end;
 }
