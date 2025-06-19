@@ -15,10 +15,13 @@ codeunit 50212 "Action Message Log Helper PTE"
 
         ActionMessageLog.Init();
         ActionMessageLog."Entry No." := NextLineNo;
+        ActionMessageLog."Created On" := Today();
+        ActionMessageLog."Created At" := Time();
+        ActionMessageLog."Created By" := CopyStr(UserId(), 1, MaxStrLen(ActionMessageLog."Created By"));
         ActionMessageLog.Insert(true);
     end;
 
-    internal procedure AddRequest(var ActionMessageLog: Record "Action Message Log PTE"; RequestJson: JsonObject)
+    internal procedure AddRequest(var ActionMessageLog: Record "Action Message Log PTE"; RequestJson: JsonToken)
     var
         JsonOutStream: OutStream;
     begin
