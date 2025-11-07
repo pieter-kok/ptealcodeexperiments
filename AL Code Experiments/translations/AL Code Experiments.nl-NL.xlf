@@ -105,6 +105,48 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Contract PTE - Field No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1198365470 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Import</source>
+          <target state="translated">Bestandsimport</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table File Import PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1198365470 - Field 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry number of the file import record.</source>
+          <target state="translated">Hiermee wordt het volgnummer opgegeven van het bestandsimport record.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table File Import PTE - Field Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1198365470 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target state="translated">Volgnr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table File Import PTE - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1198365470 - Field 3389567799 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the file content as a BLOB.</source>
+          <target state="translated">Hiermee wordt de bestandsinhoud opgegeven als BLOB.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table File Import PTE - Field File BLOB - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1198365470 - Field 3389567799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File BLOB</source>
+          <target state="translated">Bestand BLOB</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table File Import PTE - Field File BLOB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1198365470 - Field 804481195 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the file.</source>
+          <target state="translated">Hiermee wordt de naam van het document opgegeven.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table File Import PTE - Field File Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1198365470 - Field 804481195 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name</source>
+          <target state="translated">Bestandsnaam</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table File Import PTE - Field File Name - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1252081885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Hierarchy Description</source>
           <target state="translated">Hierarchie-omschrijving</target>
@@ -315,6 +357,18 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Target Table PTE - Field Entry No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2253064672 - Method 2787516006 - NamedType 4210430314" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download</source>
+          <target state="translated">Download</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit File Import Helper PTE - Method DownloadFile - NamedType DownloadLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2253064672 - Method 2765424895 - NamedType 3578138118" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No file is linked to the %1 with %2 = '%3'</source>
+          <target state="translated">Er is geen bestand gekoppeld aan de %1 met %2 = '%3'.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Table Caption, %2=Field Caption, %3=Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit File Import Helper PTE - Method GetBlob - NamedType NoFileErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3400242284 - Method 3419647596 - NamedType 2079520847" size-unit="char" translate="yes" xml:space="preserve">
           <source>Report layout not found for report ID %1</source>
           <target state="translated">Rapportlayout niet gevonden voor rapport-id %1</target>
@@ -357,6 +411,30 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Library Helper PTE - NamedType TargetLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3008217370 - Method 3116299916 - NamedType 391469384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Files (*.*)|*.*</source>
+          <target state="translated">Alle bestanden (*.*)|*.*</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import File Meth PTE - Method DoImportFile - NamedType AllFilesTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3008217370 - Method 3116299916 - NamedType 3566977790" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The file name is too long. The maximum supported length is %1 characters.</source>
+          <target state="translated">De bestandsnaam is te lang. Het maximum aantal ondersteunde tekens is %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1=No. of characters</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import File Meth PTE - Method DoImportFile - NamedType FileNameTooLongErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3008217370 - Method 3116299916 - NamedType 3479775157" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No file was selected.</source>
+          <target state="translated">Er is geen bestand geselecteerd.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import File Meth PTE - Method DoImportFile - NamedType NoFileSelectedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3008217370 - Method 3116299916 - NamedType 494866634" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select file...</source>
+          <target state="translated">Bestand selecteren...</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import File Meth PTE - Method DoImportFile - NamedType SelectFileTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2612832961 - Method 552824665 - NamedType 469229928" size-unit="char" translate="yes" xml:space="preserve">
           <source>The item description cannot be constructed. %1 is missing in %2.</source>
           <target state="translated">De artikelomschrijving kan niet worden opgebouwd. %1 is niet opgegeven in %2.</target>
@@ -398,6 +476,12 @@
           <target state="translated">Hiermee wordt de json-aanvraag gedownload die is opgeslagen in het actieberichtlog.</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Action Message Logs PTE - Action DownloadRequest - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 307986589 - Action 3219083399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download</source>
+          <target state="translated">Download</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Action Message Logs PTE - Action DownloadRequest - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 307986589 - Action 3219083399 - Method 1377591017 - NamedType 356312786" size-unit="char" translate="yes" xml:space="preserve">
           <source>All files (*.*)|*.*</source>
@@ -512,6 +596,60 @@
           <target state="translated">Dag van de week (DWY)</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page Date With Day of Week - Control DWY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1198365470 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Import</source>
+          <target state="translated">Bestandsimport</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page File Import PTE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1198365470 - Control 358152503 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the file itself is linked to the file import record.</source>
+          <target state="translated">Hiermee wordt opgegeven of het bestand zelf is gekoppeld aan het bestandsimport record.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page File Import PTE - Control Contains File - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1198365470 - Control 358152503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contains File</source>
+          <target state="translated">Bevat bestand</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page File Import PTE - Control Contains File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1198365470 - Action 593408208 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Downloads the current file.</source>
+          <target state="translated">Download het huidige bestand.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page File Import PTE - Action Download - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1198365470 - Action 593408208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download</source>
+          <target state="translated">Download</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page File Import PTE - Action Download - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1198365470 - Action 3201496503 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Imports a selected file.</source>
+          <target state="translated">Importeert a geselecteerd bestand.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page File Import PTE - Action Import - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1198365470 - Action 3201496503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import</source>
+          <target state="translated">Importeren</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page File Import PTE - Action Import - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1198365470 - Action 4266201246 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the preview of the current file.</source>
+          <target state="translated">Toont een voorbeeld van de huidige file.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page File Import PTE - Action Preview - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1198365470 - Action 4266201246 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preview</source>
+          <target state="translated">Voorbeeld</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page File Import PTE - Action Preview - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1252081885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Hierarchy Descriptions</source>
@@ -1269,11 +1407,17 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report Image Library PTE - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 4106787897 - Action 3814372889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+        <trans-unit id="PageExtension 4106787897 - Action 2008374226 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Opens the Mobile Scan page.</source>
+          <target state="translated">Opent de pagina mobiel scannen.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bus. Manager Role Center PTE - Action MobileScan PTE - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4106787897 - Action 2008374226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
           <source>Mobile Scan</source>
           <target state="translated">Mobiel scannen</target>
           <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bus. Manager Role Center PTE - Action MobileScanPTE PTE - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bus. Manager Role Center PTE - Action MobileScan PTE - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3946475116 - Control 51343138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Extended Comment</source>
