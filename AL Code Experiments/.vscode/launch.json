@@ -22,7 +22,8 @@
       "serverInstance": "BC",
       "port": 7049,
       "tenant": "default",
-      "authentication": "UserPassword"
+      "authentication": "UserPassword",
+      "breakOnError": "ExcludeTry"
     }
   ]
 }
