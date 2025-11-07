@@ -15,18 +15,18 @@
       "id": "ac14293f-1eb7-4a7b-9936-b280da31970b",
       "name": "Data Search",
       "publisher": "Microsoft",
-      "version": "25.1.0.0"
+      "version": "27.0.0.0"
     },
     {
       "id": "b7174aae-753c-4e71-bacb-d973995dce5e",
       "name": "_Exclude_ReportLayouts",
       "publisher": "Microsoft",
-      "version": "25.0.0.0"
+      "version": "27.0.0.0"
     }
   ],
   "screenshots": [],
-  "platform": "25.0.0.0",
-  "application": "25.0.0.0",
+  "platform": "27.0.0.0",
+  "application": "27.0.0.0",
   "idRanges": [
     {
       "from": 50200,
@@ -43,5 +43,5 @@
     "NoImplicitWith",
     "NoPromotedActionProperties"
   ],
-  "runtime": "14.0"
+  "runtime": "16.0"
 }
