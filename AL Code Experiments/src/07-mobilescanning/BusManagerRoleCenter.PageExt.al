@@ -8,10 +8,11 @@ pageextension 50201 "Bus. Manager Role Center PTE" extends "Business Manager Rol
     {
         addlast(embedding)
         {
-            action("MobileScanPTE PTE")
+            action("MobileScan PTE")
             {
                 ApplicationArea = All;
                 Caption = 'Mobile Scan';
+                ToolTip = 'Opens the Mobile Scan page.';
                 RunObject = page "Mobile Scan PTE";
             }
         }

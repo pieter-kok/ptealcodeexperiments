@@ -58,10 +58,10 @@ codeunit 50210 "Unbound Actions PTE"
     local procedure CreateJsonObjectResponse(var ResultJsonToken: JsonToken; ErrorText: Text)
     var
         ResultObject: JsonObject;
-        StatusTok: Label 'status';
-        OKTok: Label 'OK';
-        ErrorTok: Label 'Error';
-        ErrorTextTok: Label 'errorText';
+        ErrorTextTok: Label 'errorText', Locked = true;
+        ErrorTok: Label 'Error', Locked = true;
+        OKTok: Label 'OK', Locked = true;
+        StatusTok: Label 'status', Locked = true;
     begin
         if ErrorText = '' then
             ResultObject.Add(StatusTok, OKTok)
